@@ -1,0 +1,150 @@
+/*======All Section Start=======*/
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+    font-family: "Opens Sans",sans-serif;
+    background: #ddd;
+}
+.container{
+background: #fff;
+margin: 0px 60px;
+padding: 0px 10px;
+}
+/*======All Section End=======*/
+/*======Header Section Start=======*/
+.header{
+	position: relative;
+}
+.header-img{
+width: 100%;
+height: 300px;
+}
+.header-img img{
+width: 100%;
+height: 100%;
+}
+.header-title{
+display: block;
+margin-top: -100px;
+}
+.header-title h1{
+text-align: center;
+color: #fff;
+font-weight: bold;
+font-size: 34px;
+}
+.header-title p{
+text-align: center;
+color: #000;
+font-size: 14px;
+color: #fff;
+}
+
+/*======Header Section End=======*/
+/*======Banner Section Start=======*/
+.banner{
+margin-top: 60px;
+background: #078bc7;
+overflow: hidden;
+padding: 10px 0;
+}
+.banner-img{
+display: inline-block;
+float: left;
+padding-left: 40px;
+margin-top: 5px;
+}
+.banner-img img{
+
+}
+.banner-title{
+display: inline-block;
+float: left;
+padding-left: 50px;
+}
+.banner-title h1{
+color: #fff;
+font-size: 34px;
+}
+.banner-title p{
+color: #fff;
+font-size: 18px;
+text-transform: uppercase;
+margin-top: 5px;
+}
+
+/*======Banner Section End=======*/
+/*======Content Section Start=======*/
+.content{
+clear: both;
+margin-top: 10px;
+display: grid;
+grid-gap: 5px;
+grid-template-columns:300px auto auto 300px;
+overflow: hidden;
+}
+.content-item{
+ background: yellow;
+ height: 200px;
+}
+.content-item img{
+width: 100%;
+height: 100%;
+}
+.content-item .month{
+color: red;
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+padding-top: 10px;
+}
+.content-item .calender{
+
+}
+table{
+width: 100%;
+}
+table tr{
+height: 25px;
+}
+table tr:first-child{
+	background: #078bc7;
+}
+
+th,td{
+text-align: center;
+}
+
+th{
+
+}
+td{
+
+}
+th:first-child,
+td:first-child,
+th:last-child,
+td:last-child{
+	background: red;
+}
+
+/*======Content Section End=======*/
+/*======Footer Section Start=======*/
+.footer{
+background: red;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin-top: 10px;
+}
+.footer p{
+ font-size: 18px;
+ font-weight: bold;
+ color: white;
+}
+/*======Footer Section End=======*/
